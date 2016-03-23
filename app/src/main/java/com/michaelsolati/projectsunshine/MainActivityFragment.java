@@ -47,6 +47,6 @@ public class MainActivityFragment extends Fragment {
 
         ListView list_item_forecast = (ListView) rootView.findViewById(R.id.list_view_forecast);
         list_item_forecast.setAdapter(adapter);
-        return inflater.inflate(R.layout.fragment_main, container, false);
+        return rootView;
     }
 }
