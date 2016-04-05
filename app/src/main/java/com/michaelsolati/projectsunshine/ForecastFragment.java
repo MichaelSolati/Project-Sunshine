@@ -133,7 +133,7 @@ public class ForecastFragment extends Fragment {
             String format = "json";
             String unit = "metric";
             int days = 14;
-            String appId = "[YOUR_API_KEY]";
+            String appId = "YOUR_API_KEY";
 
             try {
                 final String urlBase = "http://api.openweathermap.org/data/2.5/forecast/daily?";
